@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Bitstream Vera Serif Bold";
+  src: url("/static/styles/libs/font-awesome/fonts/fontawesome-webfont.fdf491ce5ff5.woff");
+}
+
+#register{
+  color: #575A89;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+#register:hover{
+  text-decoration: none;
+  color: #17a2b8;
+}
+.reserv{
+  transform: scale(1);
+  transition-property: transform;
+  transition-duration: 400ms;
+
+  }
+  .reserv:hover {
+    text-decoration: none;
+    text-decoration-line: none;
+
+    transform: scale(1.15);
+  }
